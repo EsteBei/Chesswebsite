@@ -1,0 +1,11 @@
+1.Index : Introduction/ presentation, page de news pour faire des articles pour cover ma progression;
+2.Lecons : Ou trouver des bons conseils [gothamchess and yt, chess.com pour les debutant, un club d'échec, lichess]
+3.Lecons par un débutant : Tips pour s'améliorer plus vite en même temps que moi.(Grand principes de l'opening, values, position/material, comment s'améliorer vite (clubs d'echecs[inserer club de Bordeaux], problèmes). Insérer idée de routine pour s'améliorer [fabulous] sur plusisurs sites chess.com, lichess
+4.[SI IL Y A UN CHESSBOARD D'INTEGRER] Explication + sipmification des règles les plus communes ou obscure (en passant, les mouvement, les echecs et tactiques, la règle qui change en fct des EU ou de la FIDE)
+5.About (Qui a créer, pourquoi, github and chess websites links)
+[barre de recherche] = option de recherche écrite/ barre de recherche toujours visible.
++ Option de changement de langue en anglais.
+[click count and such]
+[Integrer un chess board, potentiellement un engine]
+[maybe add if all works well]
+Dans la page Comment s'améliorer, AU moment de la quote rajouter une photo en transparant pour faire un peu insiprant de manière ironique.

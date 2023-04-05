@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+html, body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display:flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+/* Ici commence tout le CSS du nav*/
+nav {
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(128, 128, 128, 0.8);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav>ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-block: 0;
+    color: aliceblue;
+    padding: 0%;
+}
+nav>ul>a>li {
+    padding: 10px 10px;
+}
+nav>ul>a>li>img {
+    padding: 10px 10px;
+}
+nav>ul>li:last-child{
+    border:0ch
+}
+nav>ul>li:hover{
+    background-color: white;
+    color: green;
+}
+nav>ul>a:hover {
+    background-color: white;
+    color: green;     
+}
+nav a{
+    color: aliceblue;
+}
+a {
+    text-decoration: none;
+}
+
+/*
+nav>ul>li::after{
+    content: "|";
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+nav>ul>li:last-child::after{
+    content: "";
+}
+Peit trait après le texte pour faire un espèce de séparation border.
+*/
+header{ 
+    padding: 0px 300px 0px 300px;
+}
+header>h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+nav>ul>a>li>img {
+    height: 15px;
+    padding: 0%;
+}
+/* Vérifier ce qui fonctione le mieux une fois qu'on met les logos/liens.*/
+footer{
+    width: 100%;
+    background-color:rgba(0, 0,0, 0.8);
+    color: aliceblue;
+}
+footer>h1 {
+    text-align: center;
+}
+footer p{
+    padding: 0px 260px;
+}
+footer>section>ul>li {
+    list-style: none;
+}
+.cslink {
+    text-align: center;
+}
+.cslink>a{
+    color: aliceblue;
+    text-decoration: underline;
+}
+li{
+    list-style: none;
+}
+/* bouton vers les différents sites/ réseaux*/
+/* Agencement des bouttons */
+.medialist{
+    display: flex;
+    justify-content: space-around;
+}
+/*Lien chess.com */
+.navlinkchess img{
+    height: 150px;
+    z-index: 0;
+}
+.hoverbtn_chess {
+    position: relative;
+    z-index: 1;
+    opacity: 50;
+    width: 150px;
+    height: 150px;
+    bottom: 170px;
+}
+.hoverbtn_chess p{
+    margin: 0%;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    opacity: 0;
+}
+.hoverbtn_chess:hover p{
+    opacity: 100;
+}
+.hoverbtn_chess:hover{
+    background-color: rgba(240, 240, 250, 0.75);
+}
+.hoverbtn_chess a{
+    color: black;
+}
+/* Fin lien chess.  com */
+/* Lien Lichess*/
+.navlinklichess img{
+    height: 150px;
+    z-index: 0;
+}
+.hoverbtn_lichess {
+    position: relative;
+    z-index: 1;
+    opacity: 50;
+    width: 150px;
+    height: 150px;
+    bottom: 170px;
+}
+.hoverbtn_lichess p{
+    margin: 0%;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    opacity: 0;
+}
+.hoverbtn_lichess:hover p{
+    opacity: 100;
+}
+.hoverbtn_lichess:hover{
+    background-color: rgba(240, 240, 250, 0.75);
+}
+.hoverbtn_lichess a{
+    color: black;
+}
+/*Fin Lien Lichess*/
+/*Lien Github*/
+.navlinkgithub img{
+    height: 150px;
+    z-index: 0;
+}
+.hoverbtn_github {
+    position: relative;
+    z-index: 1;
+    opacity: 50;
+    width: 150px;
+    height: 150px;
+    bottom: 170px;
+}
+.hoverbtn_github p{
+    margin: 0%;
+    text-align: center;
+    position: relative;
+    top: 55px;
+    opacity: 0;
+}
+.hoverbtn_github:hover p{
+    opacity: 100;
+}
+.hoverbtn_github:hover{
+    background-color: rgba(240, 240, 250, 0.75);
+}
+.hoverbtn_github a{
+    color: black;
+}
+/*Fin Lien Github*/
+.chesslesson img{
+    height: 140px;
+    position: relative;
+    float: right;
+    bottom: 30px;
+}
+.gothamchess iframe{
+    height: 240px;
+    width: 424px;
+    position: relative;
+    left: 110px;
+}
+.lessonlist p{
+    text-align: left;
+}
+/* lien bouton bdx page lecon */
+.texteclub p{
+    margin-right: 150px;
+}
+.texteclub {
+    height: 150px;
+    margin-bottom: 30px;
+}
+.equiquierbordelais{
+    height: 0px;
+}
+.equiquierbordelais img{
+    height: 150px;
+    position: relative;
+    bottom: 178px;
+    left: 580px;
+}
+.hoverbtn_bdx {
+    position: relative;
+    z-index: 1;
+    opacity: 50;
+    width: 130px;
+    height: 150px;
+    bottom: 185px;
+    left: 580px;
+}
+.hoverbtn_bdx p{
+    margin: 0%;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    opacity: 0;
+    height: 130px;
+}
+.hoverbtn_bdx:hover p{
+    opacity: 100;
+}
+.hoverbtn_bdx:hover{
+    background-color: rgba(240, 240, 250, 0.75);
+}
+.hoverbtn_bdx a{
+    color: black;
+}
+/* fin lien bouton bdx page lecon */
+.quote{
+    border: thin solid black;
+    padding: 20px;
+    margin: 30px;
+}
